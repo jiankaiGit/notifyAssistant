@@ -62,17 +62,17 @@ public class MainActivity extends AppCompatActivity {
                     editor.commit();
                 }else{
                     new AlertDialog.Builder(MainActivity.this)
-                            .setTitle("關閉功能")
-                            .setMessage("之後將不會再自動清除通知欄與記錄通知在此\n確定關閉?")
+                            .setTitle(R.string.waring_trun_off_title)
+                            .setMessage(R.string.waring_trun_off_content)
                             .setCancelable(false)
-                            .setPositiveButton("確定", new DialogInterface.OnClickListener() {
+                            .setPositiveButton(R.string.waring_turn_off_yes_btn, new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     editor.putBoolean("clearNotify",false);
                                     editor.commit();
                                 }
                             })
-                            .setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                            .setNegativeButton(R.string.waring_turn_off_no_btn, new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     cancelAllNotify.setChecked(true);
@@ -86,9 +86,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 new AlertDialog.Builder(MainActivity.this)
-                        .setTitle("清除本次通知")
-                        .setMessage("將清除本次紀錄的通知\n是否要清除？")
-                        .setPositiveButton("是", new DialogInterface.OnClickListener() {
+                        .setTitle(R.string.waring_clear_title)
+                        .setMessage(R.string.waring_clear_content)
+                        .setPositiveButton(R.string.waring_clear_confirmBtn, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 if(!mySharePreference.getString("notifyBackupMessage","").equals("")){

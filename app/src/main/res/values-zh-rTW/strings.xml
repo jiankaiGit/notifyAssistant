@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">通知收集寶</string>
+    <string name="service_name">notifyAssistant</string>
+    <string name="switch_title">清除通知欄\n記錄通知</string>
+    <string name="btn_clear">清除</string>
+    <string name="waring_clear_title">清除本次通知</string>
+    <string name="waring_clear_content">即將清除本次通知 確定要清除？</string>
+    <string name="waring_clear_confirmBtn">是</string>
+    <string name="waring_trun_off_title">關閉?</string>
+    <string name="waring_trun_off_content">關閉後將無法自動清除通知欄 確定關閉？</string>
+    <string name="waring_turn_off_yes_btn">確定</string>
+    <string name="waring_turn_off_no_btn">取消</string>
+</resources>

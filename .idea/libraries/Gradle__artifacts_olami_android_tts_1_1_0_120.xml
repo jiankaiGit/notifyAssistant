@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:olami-android-tts-1.1.0.120">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/olami-android-tts-1.1.0.120.aar/8f209cc9549bfe64aeedc12d7d4d77b6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/olami-android-tts-1.1.0.120.aar/8f209cc9549bfe64aeedc12d7d4d77b6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

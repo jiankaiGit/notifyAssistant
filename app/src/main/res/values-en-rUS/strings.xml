@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotifyHub</string>
+    <string name="service_name">notifyAssistant</string>
+    <string name="switch_title">Clear\nLog Notification</string>
+    <string name="btn_clear">Clear</string>
+    <string name="waring_clear_title">Clear this notice</string>
+    <string name="waring_clear_content">Will the notification of this record be cleared soon?</string>
+    <string name="waring_clear_confirmBtn">Yes</string>
+    <string name="waring_trun_off_title">Close?</string>
+    <string name="waring_trun_off_content">After closing, the notification bar and record notification will not be automatically cleared. Is it determined to be closed?</string>
+    <string name="waring_turn_off_yes_btn">Yes</string>
+    <string name="waring_turn_off_no_btn">No</string>
+</resources>
